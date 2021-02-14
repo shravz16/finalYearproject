@@ -1,0 +1,6 @@
+201,Shravan,21,chennai-photography,travel,food
+202,krishna,21,chennai-coding,developer,books
+203,pradeep,21,chennai-gaming,bike,fitness
+204,kishore,21,chennai-politics,bike,food
+205,prithvi,21,chennai-fitness,badminton,photography
+206,vikram,21,chennai-fitness,cars,food
