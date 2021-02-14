@@ -87,6 +87,22 @@ public class Main {
 	{
 		System.out.println(e.getKey()+" ==> "+e.getValue());
 	}
+	System.out.println("---------------------------------------------------------------------");
+	System.out.println("Connected Set");
+	System.out.println("---------------------------------------------------------------------");
+	for(Map.Entry<Nodes, HashSet<String>> e:people.entrySet())
+	{
+		
+		for(String hss:e.getValue())
+		{
+			HashSet<Nodes> hst=tags.get(hss);
+			for(Nodes ptr:hst)
+			{
+				if(e.getKey().pid!=ptr.pid)
+				System.out.println(e.getKey().pid+" "+ptr.pid);
+			}
+		}
+	}
 	
 	
 	
