@@ -21,6 +21,7 @@ public class Nodes {
 	{
 		return ((Integer)pid).hashCode();
 	}
+	
 	@Override
 	public boolean equals(Object o)
 	{
