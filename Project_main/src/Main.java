@@ -10,7 +10,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		File ff=new File("input.txt");
 	Scanner s=new Scanner(ff);
-	Nodes nodes[]=new Nodes[10];
+	Nodes nodes[]=new Nodes[30];
 	int pid;
 	String Name;
 	int age;
