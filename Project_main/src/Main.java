@@ -10,7 +10,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		File ff=new File("input.txt");
 	Scanner s=new Scanner(ff);
-	Nodes nodes[]=new Nodes[10];
+	Nodes nodes[]=new Nodes[30];
 	int pid;
 	String Name;
 	int age;
@@ -86,6 +86,22 @@ public class Main {
 	for(Map.Entry<Nodes, HashSet<String>> e:people.entrySet())
 	{
 		System.out.println(e.getKey()+" ==> "+e.getValue());
+	}
+	System.out.println("---------------------------------------------------------------------");
+	System.out.println("Connected Set");
+	System.out.println("---------------------------------------------------------------------");
+	for(Map.Entry<Nodes, HashSet<String>> e:people.entrySet())
+	{
+		
+		for(String hss:e.getValue())
+		{
+			HashSet<Nodes> hst=tags.get(hss);
+			for(Nodes ptr:hst)
+			{
+				if(e.getKey().pid!=ptr.pid)
+				System.out.println(e.getKey().pid+" "+ptr.pid);
+			}
+		}
 	}
 	
 	
