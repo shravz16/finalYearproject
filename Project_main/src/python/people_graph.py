@@ -43,8 +43,8 @@ with open("temp.txt",'r') as f:
 
 nx.draw(graph,with_labels= True)
 
-plt.show()
-# plt.savefig("pythongraph.jpg")
+# plt.show()
+plt.savefig("pythongraph.jpg")
 # graph.add_edge(203 ,218)
 # graph.add_edge(203 ,217)
 # graph.add_edge(203 ,209)
