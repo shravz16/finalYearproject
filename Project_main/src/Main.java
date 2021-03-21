@@ -13,6 +13,7 @@ public class Main {
 	Nodes nodes[]=new Nodes[30];
 	int pid;
 	String Name;
+	String email;
 	int age;
 	String place;
 	ArrayList<String> interest;
@@ -25,12 +26,13 @@ public class Main {
 		String base[]=arr[0].split(",");
 		pid=Integer.parseInt(base[0]);
 		Name=base[1];
-		age=Integer.parseInt(base[2]);
-		place=base[3];
+		email=base[2];
+		age=Integer.parseInt(base[3]);
+		place=base[4];
 		base=arr[1].split(",");
 		interest=new ArrayList<>();
 		Collections.addAll(interest, base);
-		nodes[i]=new Nodes(pid,Name,age,place,interest);
+		nodes[i]=new Nodes(pid,Name,email,age,place,interest);
 		i++;
 		
 	}
@@ -41,7 +43,8 @@ public class Main {
 	{
 		if(people.containsKey(nodes[k]))
 		{
-			continue;
+			
+			continue; //-106369780
 		
 		}
 		else
