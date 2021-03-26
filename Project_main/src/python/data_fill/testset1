@@ -1,0 +1,807 @@
+
+test=set(220,
+220,
+220,
+220,
+220,
+220,
+220,
+220,
+220,
+220,
+220,
+238,
+238,
+238,
+238,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+204,
+217,
+217,
+217,
+217,
+217,
+217,
+217,
+217,
+217,
+217,
+217,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+216,
+221,
+221,
+221,
+221,
+221,
+237,
+237,
+237,
+237,
+237,
+237,
+237,
+237,
+237,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+206,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+233,
+235,
+235,
+235,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+208,
+202,
+202,
+202,
+202,
+202,
+202,
+202,
+202,
+202,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+214,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+236,
+230,
+230,
+230,
+230,
+231,
+231,
+231,
+231,
+231,
+231,
+231,
+231,
+231,
+232,
+232,
+232,
+232,
+232,
+232,
+232,
+232,
+232,
+232,
+232,
+232,
+218,
+218,
+218,
+218,
+218,
+218,
+239,
+239,
+239,
+239,
+239,
+203,
+203,
+203,
+203,
+203,
+203,
+203,
+203,
+227,
+227,
+227,
+227,
+227,
+227,
+240,
+240,
+240,
+240,
+240,
+240,
+240,
+240,
+240,
+211,
+211,
+211,
+211,
+211,
+211,
+211,
+211,
+211,
+211,
+211,
+211,
+210,
+210,
+210,
+210,
+210,
+210,
+210,
+210,
+222,
+222,
+207,
+207,
+207,
+207,
+207,
+207,
+207,
+207,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+212,
+219,
+219,
+219,
+219,
+219,
+219,
+219,
+219,
+219,
+219,
+224,
+224,
+224,
+224,
+224,
+224,
+224,
+224,
+224,
+224,
+209,
+209,
+209,
+209,
+209,
+209,
+209,
+209,
+209,
+209,
+209,
+209,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+213,
+205,
+205,
+205,
+205,
+205,
+205,
+205,
+205,
+205,
+229,
+229,
+229,
+229,
+229,
+229,
+229,
+229,
+229,
+229,
+229,
+229,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+226,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+234,
+228,
+228,
+228,
+228,
+228,
+228,
+228,
+228,
+228,
+228,
+228,
+228,
+225,
+225,
+223,
+223,
+223,
+223,
+223,
+223,
+223,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+201,
+215,
+215,
+215,
+215,
+215,
+)
+G.add_edge(220, 213)
+G.add_edge(220, 233)
+G.add_edge(220, 240)
+G.add_edge(220, 211)
+G.add_edge(220, 231)
+G.add_edge(220, 213)
+G.add_edge(220, 205)
+G.add_edge(220, 233)
+G.add_edge(220, 236)
+G.add_edge(220, 216)
+G.add_edge(220, 206)
+G.add_edge(238, 227)
+G.add_edge(238, 202)
+G.add_edge(238, 218)
+G.add_edge(238, 235)
+G.add_edge(204, 211)
+G.add_edge(204, 217)
+G.add_edge(204, 215)
+G.add_edge(204, 208)
+G.add_edge(204, 226)
+G.add_edge(204, 234)
+G.add_edge(204, 214)
+G.add_edge(204, 228)
+G.add_edge(204, 201)
+G.add_edge(204, 212)
+G.add_edge(204, 224)
+G.add_edge(204, 232)
+G.add_edge(204, 206)
+G.add_edge(217, 204)
+G.add_edge(217, 211)
+G.add_edge(217, 215)
+G.add_edge(217, 203)
+G.add_edge(217, 223)
+G.add_edge(217, 237)
+G.add_edge(217, 234)
+G.add_edge(217, 214)
+G.add_edge(217, 213)
+G.add_edge(217, 237)
+G.add_edge(217, 233)
+G.add_edge(216, 226)
+G.add_edge(216, 236)
+G.add_edge(216, 212)
+G.add_edge(216, 209)
+G.add_edge(216, 206)
+G.add_edge(216, 229)
+G.add_edge(216, 220)
+G.add_edge(216, 236)
+G.add_edge(216, 206)
+G.add_edge(216, 203)
+G.add_edge(216, 236)
+G.add_edge(216, 209)
+G.add_edge(216, 229)
+G.add_edge(221, 228)
+G.add_edge(221, 223)
+G.add_edge(221, 212)
+G.add_edge(221, 226)
+G.add_edge(221, 225)
+G.add_edge(237, 203)
+G.add_edge(237, 217)
+G.add_edge(237, 223)
+G.add_edge(237, 227)
+G.add_edge(237, 234)
+G.add_edge(237, 214)
+G.add_edge(237, 217)
+G.add_edge(237, 213)
+G.add_edge(237, 233)
+G.add_edge(206, 226)
+G.add_edge(206, 236)
+G.add_edge(206, 212)
+G.add_edge(206, 209)
+G.add_edge(206, 216)
+G.add_edge(206, 229)
+G.add_edge(206, 220)
+G.add_edge(206, 236)
+G.add_edge(206, 216)
+G.add_edge(206, 208)
+G.add_edge(206, 226)
+G.add_edge(206, 234)
+G.add_edge(206, 204)
+G.add_edge(206, 214)
+G.add_edge(206, 228)
+G.add_edge(206, 201)
+G.add_edge(206, 212)
+G.add_edge(206, 224)
+G.add_edge(206, 232)
+G.add_edge(233, 220)
+G.add_edge(233, 213)
+G.add_edge(233, 220)
+G.add_edge(233, 240)
+G.add_edge(233, 211)
+G.add_edge(233, 231)
+G.add_edge(233, 213)
+G.add_edge(233, 205)
+G.add_edge(233, 234)
+G.add_edge(233, 214)
+G.add_edge(233, 217)
+G.add_edge(233, 213)
+G.add_edge(233, 237)
+G.add_edge(235, 209)
+G.add_edge(235, 215)
+G.add_edge(235, 238)
+G.add_edge(208, 228)
+G.add_edge(208, 214)
+G.add_edge(208, 201)
+G.add_edge(208, 219)
+G.add_edge(208, 226)
+G.add_edge(208, 234)
+G.add_edge(208, 204)
+G.add_edge(208, 214)
+G.add_edge(208, 228)
+G.add_edge(208, 201)
+G.add_edge(208, 212)
+G.add_edge(208, 224)
+G.add_edge(208, 232)
+G.add_edge(208, 206)
+G.add_edge(202, 207)
+G.add_edge(202, 219)
+G.add_edge(202, 218)
+G.add_edge(202, 238)
+G.add_edge(202, 218)
+G.add_edge(202, 227)
+G.add_edge(202, 210)
+G.add_edge(202, 207)
+G.add_edge(202, 219)
+G.add_edge(214, 234)
+G.add_edge(214, 217)
+G.add_edge(214, 213)
+G.add_edge(214, 237)
+G.add_edge(214, 233)
+G.add_edge(214, 208)
+G.add_edge(214, 201)
+G.add_edge(214, 219)
+G.add_edge(214, 208)
+G.add_edge(214, 226)
+G.add_edge(214, 234)
+G.add_edge(214, 204)
+G.add_edge(214, 228)
+G.add_edge(214, 201)
+G.add_edge(214, 212)
+G.add_edge(214, 224)
+G.add_edge(214, 232)
+G.add_edge(214, 206)
+G.add_edge(236, 226)
+G.add_edge(236, 212)
+G.add_edge(236, 209)
+G.add_edge(236, 216)
+G.add_edge(236, 206)
+G.add_edge(236, 229)
+G.add_edge(236, 220)
+G.add_edge(236, 216)
+G.add_edge(236, 206)
+G.add_edge(236, 203)
+G.add_edge(236, 209)
+G.add_edge(236, 216)
+G.add_edge(236, 229)
+G.add_edge(230, 239)
+G.add_edge(230, 223)
+G.add_edge(230, 239)
+G.add_edge(230, 240)
+G.add_edge(231, 220)
+G.add_edge(231, 240)
+G.add_edge(231, 211)
+G.add_edge(231, 213)
+G.add_edge(231, 205)
+G.add_edge(231, 233)
+G.add_edge(231, 211)
+G.add_edge(231, 210)
+G.add_edge(231, 205)
+G.add_edge(232, 208)
+G.add_edge(232, 226)
+G.add_edge(232, 234)
+G.add_edge(232, 204)
+G.add_edge(232, 214)
+G.add_edge(232, 228)
+G.add_edge(232, 201)
+G.add_edge(232, 212)
+G.add_edge(232, 224)
+G.add_edge(232, 206)
+G.add_edge(232, 234)
+G.add_edge(232, 240)
+G.add_edge(218, 203)
+G.add_edge(218, 202)
+G.add_edge(218, 207)
+G.add_edge(218, 219)
+G.add_edge(218, 202)
+G.add_edge(218, 238)
+G.add_edge(239, 230)
+G.add_edge(239, 223)
+G.add_edge(239, 230)
+G.add_edge(239, 222)
+G.add_edge(239, 229)
+G.add_edge(203, 218)
+G.add_edge(203, 217)
+G.add_edge(203, 223)
+G.add_edge(203, 237)
+G.add_edge(203, 236)
+G.add_edge(203, 209)
+G.add_edge(203, 216)
+G.add_edge(203, 229)
+G.add_edge(227, 238)
+G.add_edge(227, 237)
+G.add_edge(227, 202)
+G.add_edge(227, 210)
+G.add_edge(227, 207)
+G.add_edge(227, 219)
+G.add_edge(240, 220)
+G.add_edge(240, 211)
+G.add_edge(240, 231)
+G.add_edge(240, 213)
+G.add_edge(240, 205)
+G.add_edge(240, 233)
+G.add_edge(240, 230)
+G.add_edge(240, 234)
+G.add_edge(240, 232)
+G.add_edge(211, 204)
+G.add_edge(211, 217)
+G.add_edge(211, 215)
+G.add_edge(211, 220)
+G.add_edge(211, 240)
+G.add_edge(211, 231)
+G.add_edge(211, 213)
+G.add_edge(211, 205)
+G.add_edge(211, 233)
+G.add_edge(211, 210)
+G.add_edge(211, 231)
+G.add_edge(211, 205)
+G.add_edge(210, 207)
+G.add_edge(210, 211)
+G.add_edge(210, 231)
+G.add_edge(210, 205)
+G.add_edge(210, 227)
+G.add_edge(210, 202)
+G.add_edge(210, 207)
+G.add_edge(210, 219)
+G.add_edge(222, 229)
+G.add_edge(222, 239)
+G.add_edge(207, 202)
+G.add_edge(207, 219)
+G.add_edge(207, 218)
+G.add_edge(207, 210)
+G.add_edge(207, 227)
+G.add_edge(207, 202)
+G.add_edge(207, 210)
+G.add_edge(207, 219)
+G.add_edge(212, 226)
+G.add_edge(212, 236)
+G.add_edge(212, 209)
+G.add_edge(212, 216)
+G.add_edge(212, 206)
+G.add_edge(212, 229)
+G.add_edge(212, 223)
+G.add_edge(212, 221)
+G.add_edge(212, 208)
+G.add_edge(212, 226)
+G.add_edge(212, 234)
+G.add_edge(212, 204)
+G.add_edge(212, 214)
+G.add_edge(212, 228)
+G.add_edge(212, 201)
+G.add_edge(212, 224)
+G.add_edge(212, 232)
+G.add_edge(212, 206)
+G.add_edge(219, 202)
+G.add_edge(219, 207)
+G.add_edge(219, 218)
+G.add_edge(219, 227)
+G.add_edge(219, 202)
+G.add_edge(219, 210)
+G.add_edge(219, 207)
+G.add_edge(219, 208)
+G.add_edge(219, 214)
+G.add_edge(219, 201)
+G.add_edge(224, 208)
+G.add_edge(224, 226)
+G.add_edge(224, 234)
+G.add_edge(224, 204)
+G.add_edge(224, 214)
+G.add_edge(224, 228)
+G.add_edge(224, 201)
+G.add_edge(224, 212)
+G.add_edge(224, 232)
+G.add_edge(224, 206)
+G.add_edge(209, 215)
+G.add_edge(209, 235)
+G.add_edge(209, 226)
+G.add_edge(209, 236)
+G.add_edge(209, 212)
+G.add_edge(209, 216)
+G.add_edge(209, 206)
+G.add_edge(209, 229)
+G.add_edge(209, 203)
+G.add_edge(209, 236)
+G.add_edge(209, 216)
+G.add_edge(209, 229)
+G.add_edge(213, 220)
+G.add_edge(213, 233)
+G.add_edge(213, 220)
+G.add_edge(213, 240)
+G.add_edge(213, 211)
+G.add_edge(213, 231)
+G.add_edge(213, 205)
+G.add_edge(213, 233)
+G.add_edge(213, 234)
+G.add_edge(213, 214)
+G.add_edge(213, 217)
+G.add_edge(213, 237)
+G.add_edge(213, 233)
+G.add_edge(205, 220)
+G.add_edge(205, 240)
+G.add_edge(205, 211)
+G.add_edge(205, 231)
+G.add_edge(205, 213)
+G.add_edge(205, 233)
+G.add_edge(205, 211)
+G.add_edge(205, 210)
+G.add_edge(205, 231)
+G.add_edge(229, 226)
+G.add_edge(229, 236)
+G.add_edge(229, 212)
+G.add_edge(229, 209)
+G.add_edge(229, 216)
+G.add_edge(229, 206)
+G.add_edge(229, 222)
+G.add_edge(229, 239)
+G.add_edge(229, 203)
+G.add_edge(229, 236)
+G.add_edge(229, 209)
+G.add_edge(229, 216)
+G.add_edge(226, 236)
+G.add_edge(226, 212)
+G.add_edge(226, 209)
+G.add_edge(226, 216)
+G.add_edge(226, 206)
+G.add_edge(226, 229)
+G.add_edge(226, 225)
+G.add_edge(226, 221)
+G.add_edge(226, 208)
+G.add_edge(226, 234)
+G.add_edge(226, 204)
+G.add_edge(226, 214)
+G.add_edge(226, 228)
+G.add_edge(226, 201)
+G.add_edge(226, 212)
+G.add_edge(226, 224)
+G.add_edge(226, 232)
+G.add_edge(226, 206)
+G.add_edge(234, 214)
+G.add_edge(234, 217)
+G.add_edge(234, 213)
+G.add_edge(234, 237)
+G.add_edge(234, 233)
+G.add_edge(234, 208)
+G.add_edge(234, 226)
+G.add_edge(234, 204)
+G.add_edge(234, 214)
+G.add_edge(234, 228)
+G.add_edge(234, 201)
+G.add_edge(234, 212)
+G.add_edge(234, 224)
+G.add_edge(234, 232)
+G.add_edge(234, 206)
+G.add_edge(234, 240)
+G.add_edge(234, 232)
+G.add_edge(228, 221)
+G.add_edge(228, 208)
+G.add_edge(228, 208)
+G.add_edge(228, 226)
+G.add_edge(228, 234)
+G.add_edge(228, 204)
+G.add_edge(228, 214)
+G.add_edge(228, 201)
+G.add_edge(228, 212)
+G.add_edge(228, 224)
+G.add_edge(228, 232)
+G.add_edge(228, 206)
+G.add_edge(225, 226)
+G.add_edge(225, 221)
+G.add_edge(223, 203)
+G.add_edge(223, 217)
+G.add_edge(223, 237)
+G.add_edge(223, 230)
+G.add_edge(223, 239)
+G.add_edge(223, 212)
+G.add_edge(223, 221)
+G.add_edge(201, 208)
+G.add_edge(201, 214)
+G.add_edge(201, 219)
+G.add_edge(201, 208)
+G.add_edge(201, 226)
+G.add_edge(201, 234)
+G.add_edge(201, 204)
+G.add_edge(201, 214)
+G.add_edge(201, 228)
+G.add_edge(201, 212)
+G.add_edge(201, 224)
+G.add_edge(201, 232)
+G.add_edge(201, 206)
+G.add_edge(215, 209)
+G.add_edge(215, 235)
+G.add_edge(215, 204)
+G.add_edge(215, 211)
+G.add_edge(215, 217)
+

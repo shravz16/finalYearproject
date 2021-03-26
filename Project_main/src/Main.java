@@ -10,6 +10,39 @@ public class Main {
 		Scanner s = new Scanner(ff);
 		Nodes nodes[] = new Nodes[30];
 		int pid;
+<<<<<<< HEAD
+		ArrayList<Integer> interest;
+		int i = 0,temp=0;
+		try {
+			String dbURL = "jdbc:sqlserver://localhost\\;databaseName=social_network";
+			String user = "root";
+			String pass = "";
+			Connection conn = DriverManager.getConnection(dbURL, user, pass);
+			interest = new ArrayList<>();
+			String sql2="select top 1000 * from dbo.user_interest_table ";
+			PreparedStatement interests=conn.prepareStatement(sql2);
+			ResultSet rs=interests.executeQuery();
+			
+			while(rs.next()) {
+				
+				pid=rs.getInt("uid");
+				interest.add(rs.getInt("interest_name_id"));
+				i=(i+1);
+				if(i%9==0) {
+					nodes[temp] = new Nodes(pid, interest);
+					temp++;
+//					interest.clear();
+				}	}	}			
+		catch(Exception e) {
+				System.out.println(e);
+			}
+			
+	System.out.println(temp);
+		
+		HashMap<Integer, HashSet<Nodes>> tags = new HashMap<>();
+		HashMap<Nodes, HashSet<Integer>> people = new HashMap<>();
+		for (int k = 0; k < temp; k++) {
+=======
 		String Name;
 		String email;
 		int age;
@@ -37,6 +70,7 @@ public class Main {
 		HashMap<String, HashSet<Nodes>> tags = new HashMap<>();
 		HashMap<Nodes, HashSet<String>> people = new HashMap<>();
 		for (int k = 0; k < i; k++) {
+>>>>>>> parent of 4152a18... issue with GN
 			if (people.containsKey(nodes[k])) {
 
 				continue; // -106369780
